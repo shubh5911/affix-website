@@ -1,0 +1,1106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* p {
+    font-family: Poppins, sans-serif;
+    /* color: rgb(47, 43, 96); */
+}
+
+* h1, h2, h3, h4 {
+    font-family: "Myriad Pro", sans-serif;
+}
+
+                                                    /* main */
+
+.main {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    background-image: url('../../images/sunset.jpg');
+    position: relative;
+}
+
+.navbar {
+    max-width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.icon img {
+    display: flex;
+    height: 90px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 120px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu {
+    float: left;
+    height: 70px;
+    justify-content: space-between;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 44px;
+    margin-top: 27px;
+    font-size: 17px;
+    justify-content: center;
+    padding-inline: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3a3939;
+    font-family: Arial;
+    font-weight: 550;
+    font-style: italic;
+    transition: 0.4s ease-in-out;
+    justify-content: center;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+                                         /* main */
+
+.btn:hover {
+    color: #000;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    color: #fff;
+    position: relative;
+}
+
+.cont-head .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.cont-head h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    line-height: 42px;
+    margin-top: 12%;
+
+}
+
+.cont-head h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    margin-top: 24px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.content .form h2 {
+    display: flex;
+    height: 40px;
+    justify-content: flex-start;
+}
+
+.form .title {
+    display: flex;
+}
+
+.content .cn {
+    width: 220px;
+    height: 55px;
+    background: red;
+    border: none;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .4s ease;
+    border-radius: 50px;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #71d0f6;
+}
+
+.content span {
+    font-size: 65px
+}
+
+.form {
+    width: 240px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: 130px;
+    left: 870px;
+    transform: translate(0%, -5%);
+    border-radius: 20px;
+    padding: 20px 35px 35px 35px;
+}
+
+.formin img {
+    display: flex;
+    height: 70px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 180px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+
+}
+
+.form p a:hover {
+    color: yellow;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: blue;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    margin-left: 10px;
+    transform: scale(1);
+}
+
+.icons ion-icon:hover {
+    color: blue;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.3);
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 12px;
+    padding-top: 10px;
+    transition: 0.3s ease;
+}
+                                                 /* Main */
+
+                                             /* middle section */
+
+.figure h3 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 30px;
+    line-height: 33px;
+    color: rgb(47, 43, 96);
+    font-weight: 600;
+}
+
+.figure p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 34px;
+}
+
+.mid-sec-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.block {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.large-6-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.large-6-boxx {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+
+.block-contain h4 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(47, 43, 96);
+    font-weight: 550;
+}
+
+.block-contain p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(68, 63, 132);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-50 h4 {
+    padding-top: 10px;
+}
+
+.width-50 p {
+    padding: 12px 0px 24px;
+}
+
+.box-bg {
+    background-color: rgba(203, 203, 203, 0.596);
+    padding: 20px 0px 0px 30px;
+    margin: 16px;
+    border-radius: 50px;
+}
+
+
+                                        /* Container section */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    padding-top: 80px;
+}
+
+.heading {
+    padding-top: 50px;
+}
+.heading h2 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 600;
+    padding: px;
+    color: rgb(47, 43, 96);
+    text-align: center;
+}
+
+.heading p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.card-box h3 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(47, 43, 96);
+    font-weight: 700;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.card-box p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.card-one, .card-two, .card-three {
+    padding: 20px 40px;
+    background-color: #71d0f6;
+    border-radius: 50px;
+}
+
+.lm button {
+    border: none;
+    background: none;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.lm a {
+    font-family: Poppins, sans-serif;
+    color: rgb(236, 81, 33);
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.lm a:hover {
+    color: rgba(252, 240, 9, 0.753);
+    transition: .5s;
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+}
+.services button {
+    border: none;
+}
+
+.services a {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: red;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.services a:hover {
+    background-color: rgb(37, 183, 37);
+    transition: 0.4s;
+    color: rgb(47, 43, 96);
+    font-weight: 600;
+}
+
+/* Container - One */
+
+.container-one {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 84px;
+}
+
+.container-one h1 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 30px;
+    line-height: 33px;
+    color: rgb(47, 43, 96);
+    font-weight: 600;
+}
+
+.container-one h2 {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(47, 43, 96);
+    font-weight: 600;
+}
+
+.container-one img {
+    border-radius: 40px;
+}
+
+.container-one p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.large-7-head .head p{
+    padding-top: 38px;
+}
+
+.para h2 {
+    padding-top: 56px;
+}
+
+.para p {
+    padding-top: 14px;
+}
+
+.para {
+    padding-left: 65px;
+}
+
+.about {
+    text-align: start;
+    padding-top: 60px;
+}
+
+.about button {
+    border: none;
+}
+
+.about a {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: red;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.footer-1 {
+    text-align: center;
+    background-color: rgb(214, 241, 214);
+    margin-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 64px;
+}
+
+.contain h1 {
+    font-family: "Myriad Pro", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    font-size: 30px;
+    color: rgb(47, 43, 96);
+}
+
+.contain a {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contain .bold-blue {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    color: rgb(47, 43, 96);
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contain .red {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: red;
+    line-height: 32px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+.contain .small-blue {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(47, 43, 96);
+    line-height: 32px;
+}
+
+.footer-2 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+    background-color: #222973;
+    font-family: "Myriad Pro", sans-serif;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.footer-2 p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+                                        /* /* Website Development /* */
+
+.sectionn {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.sectionn h2 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 33px;
+    color: rgb(47, 43, 96);
+}
+
+.sectionn p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 18px;
+    color: rgb(47, 43, 96);
+}
+
+                                         /* Low Mid sectoion */
+
+.low-mid{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 6rem;
+    margin: auto;
+}
+
+.large-5{
+    width: 35%;
+}
+
+.large-7{
+    width: 65%;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.large-7-box h1 {
+    padding-bottom: 18px;
+    margin-left: 13px;
+    font-size: 30px;
+    color: rgb(47, 43, 96);
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.inner h2 {
+    font-size: 26px;
+    font-size: 22px;
+    padding-bottom: 4px;
+    margin-left: 54px;
+    line-height: 29px;
+    font-weight: 500;
+    color: rgb(32, 32, 32);
+}
+
+.inner p {
+    color: rgba(49, 49, 49, 0.85);
+    font-size: 15px;
+    margin-left: 54px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+
+/* Medium One */
+
+
+.mid-one {
+    text-align: center;
+    background-color: #71d0f6;
+    padding: 70px;
+    font-size: 20px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+                                         /* Medium Two */
+
+.mid-two {
+    font-family: Poppins, sans-serif;
+    color: rgb(47, 43, 96);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    padding: 80px;
+}
+
+
+                                         /* Footer */
+
+.foot {
+    text-align: center;
+    background-color: #222973;
+    color: white;
+    height: auto;
+}
+
+.foot h1 {
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    padding-top: 78px;
+}
+
+.foot p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.foot button {
+    background-color: red;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .4s ease;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.foot button a {
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.foot button:hover {
+    background-color: #71d0f6;
+} 
+
+.foot button a:hover {
+    color: #ff7200;
+}
+
+.foot-end p {
+    border-top: 1px solid rgb(131, 128, 128);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.mid-contain h3 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(47, 43, 96);
+}
+
+.align-box .box {
+    text-align: center;
+}
+
+.mid-contain .box {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.box .ghaziabad {
+    padding: 30px 30px;
+    background-color: #dffa72;
+    border-radius: 15px;
+    border: 3px solid blue;
+    width: 170px;
+}
+
+.box .dadri {
+    padding: 30px 30px;
+    background-color: #dffa72;
+    border-radius: 15px;
+    border: 3px solid red;
+    width: 170px;
+}
+
+.box .noida {
+    padding: 30px 30px;
+    background-color: #dffa72;
+    border-radius: 15px;
+    border: 3px solid blue;
+    width: 170px;
+}
+
+.box .greater-noida {
+    padding: 30px 30px;
+    background-color: #dffa72;
+    border-radius: 15px;
+    border: 3px solid red;
+    width: 170px;
+}
+
+.box .delhi-ncr  {
+    padding: 30px 30px;
+    background-color: #dffa72;
+    border-radius: 15px;
+    border: 3px solid blue;
+    width: 170px;
+}
+
+.box img {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box a {
+    text-decoration: none;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+                                                /* About Page */
+                                            /* Medium Section */
+
+.medium{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+    padding-left: 150px;
+}
+
+.lar-5{
+    width: 35%;
+}
+
+.lar-7{
+    width: 65%;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.lar-7-box p {
+    padding-left: 100px;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(47, 43, 96);
+}
+
+.lar-5 img {
+    padding-right: 150px;
+}
+
+                                        /* Medium One */
+
+.medium-container {
+    /* background-color: #1b252f; */
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 66px 0px 66px 0px;
+}
+
+.medium-box h2 {
+    text-align: center;
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.cont {
+    margin: auto;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.kul-nag {
+    width: 40%;
+}
+
+.moh-nag {
+    width: 40%;
+}
+
+.cont p {
+    font-family: Montserrat, sans-serif;
+    color: rgb(203, 203, 203);
+    font-size: 18px;
+    line-height: 27px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.cont h1 {
+    font-family: Archivo, sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: rgb(113, 208, 246);
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.main-container {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    background-image: url('../../images/sunset.jpg');
+    position: relative;
+    background-position: center;
+}
+
+.content-head {
+    font-family: "Myriad Pro", sans-serif;
+    color: white;
+    padding-top: 84px;
+}
+
+.content-head h1 {
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+.content-head h2 {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 600;
+    padding-top: 26px;
+}
+
+                                     /* Medium Container */
+
+.mid-container-sec {
+    width: 100%;
+    display: flex;
+}
+
+.reach-out {
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 190px;
+}
+
+.reach-out h4, h5, p {
+    font-family: Poppins, sans-serif;
+}
+
+.ro-one h2 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 30px;
+    line-height: 33px;
+    color: rgb(47, 43, 96);
+}
+
+.ro-one p {
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(47, 43, 96);
+    padding-top: 30px;
+}
+
+.ro-two h4 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: rgb(47, 43, 96);
+    padding-top: 30px;
+}
+
+.ro-two h5 {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: red;
+    padding-top: 10px;
+}
+
+.ro-three, .instagram, .twitter, .linkedin {
+    display: flex;
+    cursor: pointer;
+}
+
+
+.dam {
+    width: 50%;
+}
+
+.detail-form {
+    padding-top: 80px;
+}
+
+.detail-form h2 {
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(47, 43, 96);
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 600;
+}
+
+.box .label {
+    font-family: Poppins, sans-serif;
+    color: rgb(47, 43, 96);
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.box {
+    padding-top: 12px;
+}
+
+.box .input-box .input{
+    padding: 12px 140px;
+    border-radius: 40px;
+    border: 1px solid grey;
+    align-items: start;
+}
+
+.large-label .input-box .input {
+    padding: 56px 140px;
+    border-radius: 40px;
+}
+
+.submit button {
+    background-color: red;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.submit a {
+    color: white;
+    text-decoration: none;
+}
+
+.submit button:hover {
+    background-color: rgb(47, 97, 245);
+}
+
+.map {
+    max-width: 1200px;
+}
+
+.location {
+    max-width: 1200px;
+    padding-top: 50px;
+    margin-left: 180px;
+    padding-bottom: 80px;
+}
